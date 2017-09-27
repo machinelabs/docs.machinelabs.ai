@@ -6,7 +6,7 @@ We aim to make the whole field of Machine Learning much more accessible for ever
 
 Our main focus is to provide rich tooling for the community to drive innovation in the Machine Learning field as well as creating easily digestible guides and online training programs.
 
-You can help to keep us foccused on our core mission by backing the project with financial support.
+You can help to keep us focused on our core mission by backing the project with financial support.
 
 You can support MachineLabs development via the following methods:
 
