@@ -6,9 +6,9 @@ order: 2
 
 ## What is MachineLabs?
 
-CodePen for Machine Learning
+MachineLabs is best described as the CodePen for Machine Learning. We aim to lower the barrier of entry to Machine Learning and embrace knowledge sharing.
 
-### Lowering the barrier of entry to Machine Learning
+## Lowering the barrier of entry to Machine Learning
 
 Machine Learning is a field that seems rather exclusive to people with academic background (professors, Phd’s, …). This applies to many different levels, whether it’s a job offers or even introductory tutorials for beginners. It’s often not trivial to follow even beginner guides since the field comes with a heavy focus on mathematical theories. On top of that, setting things up to just get started is also very challenging, especially if one isn’t a data scientist who is familiar with all required tools.
 
