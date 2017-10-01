@@ -9,7 +9,7 @@ If you'd like to join the list of backers, head over to [Patreon](https://www.pa
 <h2 align="center">Gold Sponsors via Patreon ($500+)</h2>
 
 <a href="https://thoughtram.io" target="_blank">
-          <img width="160px" src="https://raw.githubusercontent.com//machinelabs/docs.machinelabs.ai/master/src/images/thoughtram_logo_horizontal_01b.png">
+          <img src="https://user-images.githubusercontent.com/521109/31053434-5af2fb70-a69d-11e7-9d2d-5c270bdab45e.png">
 
 <h2 align="center">Silver Sponsors via Patreon ($250+)</h2>
 
