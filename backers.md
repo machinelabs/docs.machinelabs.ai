@@ -21,3 +21,4 @@ If you'd like to join the list of backers, head over to [Patreon](https://www.pa
 <h2 align="center">Backers via Patreon ($10+)</h2>
 
 - Elvira Eulitz
+- Dominic Elm
