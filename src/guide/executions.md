@@ -76,11 +76,23 @@ Executions can be stopped as soon as they appear as *running* on the sidebar. To
 
 ## Restarting Executions
 
+If you want to restart an execution, find it in the sidebar and select *Restart*.
 
+Technically, restarting an execution is no different from selecting an execution (See [Vieweing Executions](executions.html/#viewing-executions)) and clicking *Run* run.
+
+In other words, reset the code to the state of the choosen execution and start a new execution.
 
 ## Deleting Executions
 
+As we develop, executions add up and not all of the executions are worth keeping forever. For instance, a small typo may make an execution fail because of a syntactic error.
+
+If we decide to delete an execution, all we have to do is to click on the three dots and select *Remove*.
+
 ## Naming Executions
 
-As of today, there's no real signup process which basically means logging in with one of our OAuth providers is the entire signup process. Radically simple, no?
+Each execution is assigned an unique id which is also used as the default name. We can also give our execution a more descriptive name by clicking the three dots and selecting *Edit*
+
+This can make the executions of a lab far more descriptive than leaving the default names.
+
+[IMAGE_MNIST_EXECUTIONS]
 
