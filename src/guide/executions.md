@@ -9,15 +9,78 @@ gz_size: "29.40"
 ro_gz_size: "20.70"
 ---
 
-### Private Beta
+## Overview
 
-MachineLabs is currently in **Private Beta**. This basically means that people can't immediately start using all functions of the platform until their account gets activated.
+Executions are a core concept of the MachineLabs workflow. When we want to perform a certain code a new execution is started. An execution consists of three stages.
+
+- **1. Fetching all inputs** and placing them into the special `inputs` directory before the actual code is performed.
+
+- **2. Performing the actual code** with the specified parameters. This operation may run over long durations (days, potentially infinite) and all `stdout` / `stderr` is streamed and can be observed in real time in the console view.
+
+- **3. Uploading all outputs** that were saved to the special `outputs` directory.
+
+## Configuring Executions
+
+When we perform executions, there are certain things that can be configured. The single point of truth for all the different possible configurations is the `ml.yaml` file in the root directory of our lab.
+
+### Execution Environment
+
+Each executions runs in on a pre-configured server which comes with all the software that is needed by our code. However, there's no one-fits-all solution. For instance, we may want to decide between different Deep Learning frameworks or their specific versions
+
+MachineLabs provides a wide range of different configurations which we can specify via the `dockerImageId`. The default value for the `dockerImageId` is `keras_v2-0-x_python_3-1` which gives us access to an environment with Python 3.1, Keras 2.0.x and a bunch of other libraries.
+
+We can read more about all the different possible environments in the [Environments Guide](environments.html)
+
+### Script Parameters
+
+Foobar
+
+### Inputs
+
+Foobar
+
+## Starting Executions
+
+To start an execution, click the *Run* button.
+
+![Run](quickstart/run.png)
+
+This will kick off a new execution which immediately appears on the sidebar.
+
+![Sidebar](quickstart/sidebar.png)
+
+## Viewing Executions
+
+When we start an execution, we directly start observing its `stdout` and `stderr` output. That doesn't mean we have to continue watching it for the entire performance. In fact, as Machine Learning tasks usually take some time to perform, we often want to try out different approaches and start multiple executions in parallel.
+
+As we start other executions in our lab, each of them is placed in the sidebar.
+
+[IMAGE]
+
+We can jump back and forth between all the different executions that are listed in the sidebar. Every time we select an execution from the sidebar the *Code* and the *Output* view change accordingly.
+
+The directory of the *Code* view is set to the exact state of directory from the execution. In other words, to the version of the code at the time of when the execution was started.
+
+The *Output* view starts observing the executions `stdout` and `stderr` messages of the selected execution.
+
+<p class="tip">Notice that every time we start observing an execution that already has produced a large amount of output, the console view presents us with a reasonable sized **chunk from the beginning**, a reasonable sized **chunk from the end** in addition to all **further live messages**
+
+If the produced output is still reasonable small, all messages are presented to us.
+</p>
 
 
-## Signup & Login
+
+## Stopping Executions
+
+Executions can be stopped as soon as they appear as *running* on the sidebar. To stop an execution, click the *Stop* button.
+
+## Restarting Executions
+
+
+
+## Deleting Executions
+
+## Naming Executions
 
 As of today, there's no real signup process which basically means logging in with one of our OAuth providers is the entire signup process. Radically simple, no?
 
-## OAuth Provider
-
-We currently support *Login With GitHub* only but will support other OAuth provider in the future.
