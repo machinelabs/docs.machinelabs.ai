@@ -171,6 +171,12 @@ Watching the real time console output of our execution is fun but chances are th
 
 Fortunately, preserving any files that our execution produces (train model, graphics, logs etc) is really simple. Whatever we write to the special `outputs` directory will automatically get uploaded and become available in the *Outputs* view of the execution.
 
+In fact, if we take a closer look at our source code we'll see that we save the model to `outputs/trained_model.h5`.
+
+```python
+model.save('outputs/trained_model.h5')
+```
+
 <p class="tip">During our **Private Beta Program** a maximum of 5 files, each with a maximum file size of 5 MB can be persisted</p>
 
 ![Sidebar](quickstart/outputs.png)
