@@ -33,8 +33,12 @@ Just click *Fork* in the upper right corner.
 
 ## Editing name, description and tags
 
-Create a lab like Wooohza!
+It's good practice to give your lab a descriptive name and a short description. You can also define tags to make it easier for others to find your lab based on a specific tag such as *classification* or *LSTM*.
+
+Name, description and tags can be specified from the lab's settings dialog which opens by clicking on the gear icon next to the lab name.
 
 ## Deleting a lab
 
-Create a lab like Wooohza!
+If for some reason, we don't want to keep our lab anymore, we can delete it from the *Advanced* tab of the settings dialog.
+
+In order to prevent us from accidentially deleting a lab, we have to enter the lab name before the *Delete* button becomes active.
