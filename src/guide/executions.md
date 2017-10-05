@@ -77,7 +77,7 @@ When we start an execution, we directly start observing its `stdout` and `stderr
 
 As we start other executions in our lab, each of them is placed in the sidebar.
 
-[IMAGE]
+![Multiple executions](executions/multiple_executions.png)
 
 We can jump back and forth between all the different executions that are listed in the sidebar. Every time we select an execution from the sidebar the *Code* and the *Output* view change accordingly.
 
@@ -89,8 +89,6 @@ The *Output* view starts observing the executions `stdout` and `stderr` messages
 
 If the produced output is still reasonable small, all messages are presented to us.
 </p>
-
-
 
 ## Stopping Executions
 
@@ -116,5 +114,5 @@ Each execution is assigned an unique id which is also used as the default name. 
 
 This can make the executions of a lab far more descriptive than leaving the default names.
 
-[IMAGE_MNIST_EXECUTIONS]
+![Sidebar](executions/named_executions.png)
 
