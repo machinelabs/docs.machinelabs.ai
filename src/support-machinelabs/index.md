@@ -14,6 +14,8 @@ You can support MachineLabs development via the following methods:
 
 - [One-time donation via PayPal](https://www.paypal.me/machinelabs).
 
+- One-time Ether donation to `0x3aeC6c352c1739d90e59C34Fba35ED4581126C8C`
+
 
 If you are a business that is interested in custom features or a self-hosted MachineLabs system, please get in touch either via [Twitter](https://twitter.com/machinelabs_ai) or [E-Mail](hello@machinelabs.ai).
 
