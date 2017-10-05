@@ -1,9 +1,7 @@
 ---
-title: Markdown Editor
+title: Neural Style Transfer
 type: examples
 order: 0
 ---
 
-> Dead simple Markdown editor.
-
-<iframe width="100%" height="500" src="https://jsfiddle.net/chrisvfritz/rdjjpc7a/embedded/result,html,js,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+Coming soon. For now, please check out our [blog post](https://blog.machinelabs.ai/2017/09/26/a-neural-style-transfer-in-the-browser/)
