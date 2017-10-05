@@ -2,7 +2,6 @@
 title: Quickstart
 type: guide
 order: 3
-vue_version: 2.4.4
 dev_size: "262.63"
 min_size: "80.86"
 gz_size: "29.40"
