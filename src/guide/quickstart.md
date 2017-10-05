@@ -11,7 +11,7 @@ ro_gz_size: "20.70"
 
 ## Introduction
 
-This quickstart will teach you the basics to get up and running which MachineLabs.
+This quickstart will teach us the basics to get up and running which MachineLabs.
 
 We'll be using Keras / TensorFlow and the MNIST dataset to train a simple model how to recognize hand-written digits.
 
@@ -19,7 +19,7 @@ For more details on the data and the model, please refer to the TensorFlow docum
 
 ## Creating a fresh lab
 
-To create a fresh lab, click the *New* button in the upper right corner. You can either choose to create a lab from an existing template or start from scratch to create a blank lab. For the purpose of this quickstart guide, we'd like to create a blank lab.
+To create a fresh lab, click the *New* button in the upper right corner. We can either choose to create a lab from an existing template or start from scratch to create a blank lab. For the purpose of this quickstart guide, we'd like to create a blank lab.
 
 ![Create a lab](labs/create_lab.png)
 
@@ -27,7 +27,7 @@ To create a fresh lab, click the *New* button in the upper right corner. You can
 
 To train our model we need to get access to the MNIST dataset.
 
-You may be aware that using Keras we could directly import the MNIST dataset from `keras.datasets`, but for the purpose of this quickstart we'd rather like to fetch it manually so that you learn how to work with datasets when using the MachineLabs platform.
+Keras makes it really easy to use the MNIST dataset which means we could directly import it from `keras.datasets`, but for the purpose of this quickstart we'd rather like to fetch it manually so that we learn how to work with datasets when using the MachineLabs platform.
 
 Every lab comes with an `ml.yaml` file by default that sets important configurations for the [execution](executions.html). Jump right in there and add the following section.
 
@@ -37,9 +37,9 @@ inputs:
       url: https://s3.amazonaws.com/img-datasets/mnist.npz
 ```
 
-This configures the execution to fetch the `mnist.npz` from the specified Url and save it to `inputs/mnist.npz`. Notice that `inputs` is a special folder inside your code's execution directory which all our configured inputs are downloaded to before the actual execution starts to run the code.
+This configures the execution to fetch the `mnist.npz` from the specified Url and save it to `inputs/mnist.npz`. Notice that `inputs` is a special folder inside our code's execution directory which all our configured inputs are downloaded to before the actual execution starts to run the code.
 
-The name that you specify for the input doesn't have to match the actual download name so that you can give different names to files that would otherwise conflict with their names. Notice though that it is mandatory to specify a name for each input even if we don't need a different name.
+The name that we specify for the input doesn't have to match the actual download name so that we can give different names to files that would otherwise conflict with their names. Notice though that it is mandatory to specify a name for each input even if we don't need a different name.
 
 ## Writing the code
 
@@ -157,7 +157,7 @@ The console view gives us an infinite real time stream of our running process. W
 
 ### Controlling our executions
 
-While our execution is running you can move on and do other things including (surprise!) start other executions. Each execution is put in the sidebar and we can control our executions from there.
+While our execution is running we can move on and do other things including (surprise!) start other executions. Each execution is put in the sidebar and we can control our executions from there.
 
 The most obvious action we may want to take is to *stop* a running execution which can be done with a click on the *Stop* button.
 
@@ -189,6 +189,6 @@ Outputs can be downloaded directly from the *Outputs* view by clicking on the *D
 
 ## Wrapping up
 
-Congrats! You've just successfuly trained your first neural net to recognize hand-written digits.
+Congrats! We've just successfuly trained our first neural net to recognize hand-written digits.
 
-This was a quick run through. We recommend to read on and dive deeper into each specific section to learn more about all the things that you can do with MachineLabs.
+This was a quick run through. We recommend to read on and dive deeper into each specific section to learn more about all the things that we can do with MachineLabs.
