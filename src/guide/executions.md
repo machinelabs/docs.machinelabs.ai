@@ -17,7 +17,7 @@ Executions are a core concept of the MachineLabs workflow. When we want to perfo
 
 - **2. Performing the actual code** with the specified parameters. This operation may run over long durations (days, potentially infinite) and all `stdout` / `stderr` is streamed and can be observed in real time in the console view.
 
-- **3. Uploading all outputs** that were saved to the special `outputs` directory. Read more about that in the [Outputs Guide](outputs.html).
+- **3. Uploading all outputs** that were saved to the special `outputs` directory. Read more about that in the [Output Guide](output.html).
 
 ## Configuring Executions
 

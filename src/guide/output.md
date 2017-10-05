@@ -1,7 +1,7 @@
 ---
 title: Output
 type: guide
-order: 7
+order: 6
 vue_version: 2.4.4
 dev_size: "262.63"
 min_size: "80.86"
@@ -9,15 +9,20 @@ gz_size: "29.40"
 ro_gz_size: "20.70"
 ---
 
-### Private Beta
+### Overview
 
-MachineLabs is currently in **Private Beta**. This basically means that people can't immediately start using all functions of the platform until their account gets activated.
+When doing Machine Learning, we often want to persist generated assets such as the trained model, graphics or logs. The trained model could later be used to build applications or as a starting point for another training.
 
+## Saving output
 
-## Signup & Login
+Saving output files with MachineLabs is really simple. All files that we write to the `outputs` directory are uploaded when the code finished executing.
 
-As of today, there's no real signup process which basically means logging in with one of our OAuth providers is the entire signup process. Radically simple, no?
+Files become available in the *Outputs* view of the execution.
 
-## OAuth Provider
+<p class="tip">During our **Private Beta Program** a maximum of 5 files, each with a maximum file size of 5 MB can be persisted</p>
 
-We currently support *Login With GitHub* only but will support other OAuth provider in the future.
+## Downloading saved output
+
+We can download saved outputs by clicking on *Download* at the specific file that we want to download from the outputs view.
+
+![Sidebar](output/download_outputs.png)
