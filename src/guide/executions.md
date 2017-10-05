@@ -17,7 +17,7 @@ Executions are a core concept of the MachineLabs workflow. When we want to perfo
 
 - **2. Performing the actual code** with the specified parameters. This operation may run over long durations (days, potentially infinite) and all `stdout` / `stderr` is streamed and can be observed in real time in the console view.
 
-- **3. Uploading all outputs** that were saved to the special `outputs` directory.
+- **3. Uploading all outputs** that were saved to the special `outputs` directory. Read more about that in the [Outputs Guide](outputs.html).
 
 ## Configuring Executions
 
@@ -33,11 +33,33 @@ We can read more about all the different possible environments in the [Environme
 
 ### Script Parameters
 
-Foobar
+We often want to expose a certain set of parameters for our scripts to control things which shouldn't be set in stone and depend on the specific task at hand.
+
+Such parameters can be defined in the `parameters` section of the `ml.yaml` file.
+
+```yaml
+parameters:
+    - pass-as: 'inputs/base_image.jpg'
+    - pass-as: 'inputs/style_image.jpg'
+    - pass-as: 'outputs/generated_'
+    - pass-as: '--iter=10'
+```
+
+Parameters are passed in the defined order, making it possible to pass positional arguments as well as any other kind of parameters such as flags or key value pairs.
 
 ### Inputs
 
-Foobar
+Executions can be configured to fetch files before the actual code execution starts. We configure such files in the `inputs` section of the `ml.yaml` file.
+
+```yaml
+inputs:
+    - name: mnist.npz
+      url: https://s3.amazonaws.com/img-datasets/mnist.npz
+```
+
+An input consists of the `url` where the file can be downloaded from and the `name` that should be used to save it. Each file is then downloaded into the special `inputs` directory.
+
+The name that we specify for the input doesn't have to match the actual download name so that we can give different names to files that would otherwise conflict with their names. Notice though that it is mandatory to specify a name for each input even if we don't need a different name.
 
 ## Starting Executions
 
