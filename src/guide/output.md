@@ -1,7 +1,7 @@
 ---
 title: Output
 type: guide
-order: 6
+order: 7
 dev_size: "262.63"
 min_size: "80.86"
 gz_size: "29.40"

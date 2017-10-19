@@ -18,7 +18,7 @@ MachineLabs tries to lower the barrier of entry as well as making the tooling sc
 
 * **Access to blazingly fast GPU hardware** - Training a neural net can take hours, or even several days to finish. That’s why data scientists want to execute their code on super fast GPU optimized machines. MachineLabs offers GPU accelerated machines as part of an advanced pricing plan.
 
-* **Keep track of work** - All executions performed stay available so users can always keep track of their experiments. Each execution offers information about the duration of training, environment and execution status.
+* **Keep track of work** - All executions performed stay available so you can always keep track of your experiments. Each execution offers information about the duration of training, environment and execution status.
 
 * **Expose generated assets via API** - Outputs and generated assets can be stored on MachineLabs, which are then exposed via a REST API, enabling users to request trained models for browser based front-end apps.
 

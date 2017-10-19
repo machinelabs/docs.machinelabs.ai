@@ -1,7 +1,7 @@
 ---
 title: Labs
 type: guide
-order: 4
+order: 5
 dev_size: "262.63"
 min_size: "80.86"
 gz_size: "29.40"
