@@ -26,3 +26,13 @@ If you are a business that is interested in custom features or a self-hosted Mac
     <img src="https://user-images.githubusercontent.com/521109/31053434-5af2fb70-a69d-11e7-9d2d-5c270bdab45e.png" style="width: 240px;">
   </a>
 </p>
+
+### Silver Sponsors ($250/mo)
+
+### Bronze Sponsors ($100/mo)
+
+<p class="patreon-sponsors sponsor-section">
+  <a href="https://www.webtrix.be" target="_blank" style="width: 140px; top: 1px;">
+    <img src="https://www.webtrix.be/images/logo-webtrix.svg" style="width: 140px;">
+  </a>
+</p>
