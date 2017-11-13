@@ -16,6 +16,20 @@ If you'd like to join the list of backers, head over to [Patreon](https://www.pa
 
 <h2 align="center">Bronze Sponsors via Patreon ($100+)</h2>
 
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="middle">
+      Maarten Tibau
+        <a href="https://www.webtrix.be" target="_blank">
+          <img width="160px" src="https://www.webtrix.be/images/logo-webtrix.svg">
+        </a>
+      </td>
+    </tr>
+    <tr></tr>
+  </tbody>
+</table>
+
 <h2 align="center">Generous Backers via Patreon ($50+)</h2>
 
 - Thomas Burleson
