@@ -10,25 +10,16 @@ If you'd like to join the list of backers, head over to [Patreon](https://www.pa
 
 <a href="https://thoughtram.io" target="_blank">
           <img src="https://user-images.githubusercontent.com/521109/31053434-5af2fb70-a69d-11e7-9d2d-5c270bdab45e.png">
+</a>
 
 <h2 align="center">Silver Sponsors via Patreon ($250+)</h2>
 
 
 <h2 align="center">Bronze Sponsors via Patreon ($100+)</h2>
 
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="middle">
-      Maarten Tibau
-        <a href="https://www.webtrix.be" target="_blank">
+<a href="https://www.webtrix.be" target="_blank">
           <img width="160px" src="https://www.webtrix.be/images/logo-webtrix.svg">
-        </a>
-      </td>
-    </tr>
-    <tr></tr>
-  </tbody>
-</table>
+</a>
 
 <h2 align="center">Generous Backers via Patreon ($50+)</h2>
 
