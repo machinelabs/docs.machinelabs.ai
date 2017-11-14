@@ -12,7 +12,7 @@ You can support MachineLabs development via the following methods:
 
 - [Become a backer or sponsor via Patreon](https://www.patreon.com/machinelabs) (goes 100 % to build MachineLabs.ai)
 
-- [One-time donation via PayPal](https://www.paypal.me/machinelabs).
+- [One-time donation via PayPal](https://www.paypal.me/machinelabsai).
 
 - One-time Ether donation to `0x3aeC6c352c1739d90e59C34Fba35ED4581126C8C`
 
