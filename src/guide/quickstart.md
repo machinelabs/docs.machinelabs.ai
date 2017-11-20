@@ -172,7 +172,7 @@ The generated output can be downloaded simply by clicking the **Download** butto
 
 ![Downloading output data](labs/downloading-output-data.gif)
 
-<p class="tip">During our **Private Beta Program** a maximum of 5 files, each with a maximum file size of 5 MB can be persisted</p>
+<p class="tip">During our **Private Beta Program** a maximum of 5 files, each with a maximum file size of 50 MB can be persisted</p>
 
 ## Wrapping it up
 

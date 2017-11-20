@@ -18,7 +18,7 @@ Saving output files with MachineLabs is really simple. All files that we write t
 
 Files become available in the *Outputs* view of the execution.
 
-<p class="tip">During our **Private Beta Program** a maximum of 5 files, each with a maximum file size of 5 MB can be persisted</p>
+<p class="tip">During our **Private Beta Program** a maximum of 5 files, each with a maximum file size of 50 MB can be persisted</p>
 
 ## Downloading saved output
 
