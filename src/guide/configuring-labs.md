@@ -4,6 +4,8 @@ type: guide
 order: 4
 ---
 
+<p class="tip">MachineLabs is currently in private beta. <strong>To follow this guide you need to be part of the private beta program</strong>. If you haven't done so yet, login at <a href="https://machinelabs.ai/editor" title="MachineLabs Editor">machinelabs.ai</a> to become part of the next batch. We onboard new users weekly.</p>
+
 Labs can be configured in many different ways. We often want to specify what datasets should be used and where they come from, which Machine Learning framework or library we want to run our code on, or maybe our lab is a script that needs command line parameters to work.
 
 This and many more things can be configured in every lab's `ml.yaml` configuration file and in this section we'll explore what configurations MachineLabs supports.
