@@ -1,7 +1,7 @@
 ---
 title: Configuring labs
 type: guide
-order: 5
+order: 4
 ---
 
 <p class="tip">MachineLabs is currently in private beta. <strong>To follow this guide you need to be part of the private beta program</strong>. If you haven't done so yet, login at <a href="https://machinelabs.ai/editor" title="MachineLabs Editor">machinelabs.ai</a> to become part of the next batch. We onboard new users weekly.</p>
