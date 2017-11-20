@@ -1,7 +1,7 @@
 ---
 title: Quickstart
 type: guide
-order: 3
+order: 4
 dev_size: "262.63"
 min_size: "80.86"
 gz_size: "29.40"
