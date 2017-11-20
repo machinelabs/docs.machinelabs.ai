@@ -48,6 +48,8 @@ The following docker images are supported (more will be added in the near future
 
 - **keras_v2-0-x_python_3-1** - Keras 2.0.x and Python 3.1
 - **keras_v2-0-x_python_2-1** - Keras 2.0.x and Python 2.1
+- **tensorflow_v1-4-x-gpu_python_3-1** - GPU-enabled Tensorflow 1.4.x, Keras 2.1.x and Python 3.1
+- **tensorflow_v1-4-x-gpu_python_2-1** - GPU-enabled Tensorflow 1.4.x, Keras 2.1.x and Python 2.1
 
 This means, if we want to run our lab with Keras version 2.0.x and Python version 3.1, our configuration would look like this:
 
@@ -109,6 +111,25 @@ $ python main.py --foo=bar some-value
 
 A very good example to see script parameters in action is MachineLabs [Neural Style Transfer Lab](https://machinelabs.ai/editor/rJQrQ5wjZ/1506415557004-HkTTQ5Dob?file=ml.yaml&tab=editor). 
 
+## Hardware configuration
+
+Obviously, the hardware on which we execute our experiments has a big impact on how much time is being spent on, for example, training a neural net. That's why we often want to make sure our code is executed on **GPU-accelerated machines**. MachineLabs supports CPU and GPU hardware.
+
+We will open up possible hardware configurations in the future but for now every lab is executed on CPU hardware by default. To run our labs on GPU-accelerated machines, all we have to do is to set the `hardwareType` configuration to `gpu` like this:
+
+```yaml
+hardwareType: gpu
+```
+Once that is done, we need to make sure that we're configuring a GPU-enabled lab environment as well. For example:
+
+```yaml
+dockerImageId: tensorflow_v1-4-x-gpu_python_2-1
+```
+
+GPU support isn't available to everyone yet. However, it can easily be enabled by [becoming a Patreon](https://www.patreon.com/machinelabs) for the MachineLabs project.
+
+<p class="tip">During private beta, **GPU support is only enabled for Patreon backers**. Thank you for your support!</p>
+
 ## Cheat Sheet
 
 | Property        | Description |
@@ -116,4 +137,5 @@ A very good example to see script parameters in action is MachineLabs [Neural St
 | `dockerImageId`      | Specifies docker container environment for lab execution. |
 | `inputs`      | Specifies which data(sets) need to be downloaded before the lab executes.|
 | `parameters` | Configures script parameters passed to the entry script (e.g. `main.py`)     |
+| `hardwareType` | Sets the hardware on which your lab is executed. This can be either `cpu` (default) or `gpu`. |
 
