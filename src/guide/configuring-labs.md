@@ -130,6 +130,14 @@ GPU support isn't available to everyone yet. However, it can easily be enabled b
 
 <p class="tip">During private beta, **GPU support is only enabled for Patreon backers**. Thank you for your support!</p>
 
+### A note on host maintenance
+
+Since we're using Google Cloud Platform, GPU instances will terminate for host maintenance events and restart automatically. These maintenance events typically occur once per week.
+
+This means that there is a slight chance that an execution may be unexpectedly terminated by the system every once in a while. We're working on ironing these things out.
+
+For more information about maintenance events, read the [official GPU Compute Engine documentation](https://cloud.google.com/compute/docs/gpus/).
+
 ## Cheat Sheet
 
 | Property        | Description |
