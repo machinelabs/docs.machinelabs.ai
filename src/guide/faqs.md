@@ -4,8 +4,6 @@ type: guide
 order: 1
 ---
 
-<p class="tip">MachineLabs is currently in private beta. <strong>To follow this guide you need to be part of the private beta program</strong>. If you haven't done so yet, login at <a href="https://machinelabs.ai/editor" title="MachineLabs Editor">machinelabs.ai</a> to become part of the next batch. We onboard new users weekly.</p>
-
 ## General
 
 ### What can I do with MachineLabs?
@@ -22,19 +20,15 @@ In fact, soon you'll be able to spin up your own docker images with any environm
 
 ### How much execution time do I have?
 
-During our private beta you get **72 hours of CPU time per month**.
+During our public beta you get **72 hours of CPU time per month**.
 
 ### Can I run my code on GPU-accelerated hardware?
 
-Yes you can! GPU support is available and has to be enabled for your account during our **Private Beta**. Read [this section](/guide/configuring-labs.html#Hardware-configuration) of our documentation to learn how to configure it. We also have plenty [GPU related questions](#gpu)!
+Yes you can! GPU support is available and has to be enabled for your account during our **Public Beta**. Read [this section](/guide/configuring-labs.html#Hardware-configuration) of our documentation to learn how to configure it. We also have plenty [GPU related questions](#gpu)!
 
 ### How do I get started?
 
 We know that getting started with Machine Learning is hard. That's why we've created a [Quickstart guide](/guide/quickstart.html) that should get you up and running in no time! It's also always good to keep an eye on our [examples](/examples/index.html).
-
-### How do I become part of the Private Beta?
-
-Easy. Simply visit [our app](https://machinelabs.ai) and login with your GitHub account. We onboard new users weekly.
 
 ### How do I get access to datasets?
 
@@ -56,7 +50,7 @@ This can be easily done by combining [Lab inputs](/guide/configuring-labs.html#L
 
 ### How do I enable GPU suppor for my account?
 
-There's two ways to enable GPU support for you account **during our private beta**:
+There's two ways to enable GPU support for you account **during our public beta**:
 
 - [Become a Patreon](https://www.patreon.com/machinelabs) for the MachineLabs project
 - Create awesome labs that others can learn from
@@ -87,7 +81,7 @@ Bear with us! Enabling GPU support for our Patreons is a manual process for the 
 
 ### Which pricing plan fits best for me?
 
-Right now MachineLabs is in Private Beta and **we're still working out the pricing plans**. This means you don't have to worry about pricing at all and simply participate in our Private Beta until we announce changes on this regard. The only thing you need to pay for would be GPU support by [becoming a Patreon](https://www.patreon.com/machinelabs) for the MachineLabs project.
+Right now MachineLabs is in Public Beta and **we're still working out the pricing plans**. This means you don't have to worry about pricing at all and simply participate in our Public Beta until we announce changes on this regard. The only thing you need to pay for would be GPU support by [becoming a Patreon](https://www.patreon.com/machinelabs) for the MachineLabs project.
 
 ## Company
 

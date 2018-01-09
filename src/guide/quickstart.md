@@ -8,8 +8,6 @@ gz_size: "29.40"
 ro_gz_size: "20.70"
 ---
 
-<p class="tip">MachineLabs is currently in private beta. <strong>To follow this guide you need to be part of the private beta program</strong>. If you haven't done so yet, login at <a href="https://machinelabs.ai/editor" title="MachineLabs Editor">machinelabs.ai</a> to become part of the next batch. We onboard new users weekly.</p>
-
 ## Introduction
 
 This quickstart will teach us the basics on how to get up and running with MachineLabs. We'll be creating our first lab and use Keras with TensorFlow and the MNIST dataset, to train a simple model to learn how to recognize hand-written digits.
@@ -154,7 +152,7 @@ To stop an execution, all we have to do is to click the *Stop* button of the exe
 
 ![Stopping a running lab](labs/stopping-a-running-lab.gif)
 
-<p class="tip">During our **Private Beta Program** a maximum of two concurrent executions is allowed.</p>
+<p class="tip">During our **Public Beta Program** a maximum of two concurrent executions is allowed.</p>
 
 ## Saving output data
 
@@ -172,7 +170,7 @@ The generated output can be downloaded simply by clicking the **Download** butto
 
 ![Downloading output data](labs/downloading-output-data.gif)
 
-<p class="tip">During our **Private Beta Program** a maximum of 5 files, each with a maximum file size of 50 MB can be persisted</p>
+<p class="tip">During our **Public Beta Program** a maximum of 5 files, each with a maximum file size of 150 MB can be persisted</p>
 
 ## Wrapping it up
 
