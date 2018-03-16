@@ -22,6 +22,11 @@ If you are a business that is interested in custom features or a self-hosted Mac
 ### Gold Sponsors ($500/mo)
 
 <p class="patreon-sponsors sponsor-section">
+
+  <a href="shopware.com" target="_blank" style="width: 240px; top: 1px;">
+    <img src="https://machinelabs.ai/assets/images/shopware_logo.svg" style="width: 240px;">
+  </a>
+
   <a href="https://thoughtram.io" target="_blank" style="width: 240px; top: 1px;">
     <img src="https://user-images.githubusercontent.com/521109/31053434-5af2fb70-a69d-11e7-9d2d-5c270bdab45e.png" style="width: 240px;">
   </a>
