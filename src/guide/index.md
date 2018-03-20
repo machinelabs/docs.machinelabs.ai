@@ -6,7 +6,7 @@ order: 2
 
 ## What is MachineLabs?
 
-MachineLabs is best described as the **[CodePen](https://codepen.io) for Machine Learning**. We aim to lower the barrier of entry to Machine Learning and embrace knowledge sharing by providing a platform that is accessible, sharable and explorable via the web.
+MachineLabs is an **open source** online platform for Machine Learning. We aim to lower the barrier of entry to Machine Learning and embrace knowledge sharing by providing a platform that is accessible, sharable and explorable via the web.
 
 **Machine Learning is a field that seems rather exclusive to people with academic background** (professors, Phd’s, …). It’s often not trivial to follow even beginner guides since the field comes with a heavy focus on mathematical theories. On top of that, setting things up to just getting started can also be very challenging, especially if one isn’t a data scientist who is familiar with all required tools.
 
